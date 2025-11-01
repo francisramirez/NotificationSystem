@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <Folder Include="Persistence\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotificationSystem.Application\NotificationSystem.Application.csproj" />
   </ItemGroup>
 
 </Project>
