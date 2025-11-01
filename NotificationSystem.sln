@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{96391871-0D3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Api", "NotificationSystem.Api\NotificationSystem.Api.csproj", "{341DEFB8-3A55-49D3-A026-F806F1A0566E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5416A7B8-C5A8-474A-A8B9-DE43EE00356B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Test", "NotificationSystem.Test\NotificationSystem.Test.csproj", "{4D714A33-0B3E-49F4-A51F-6617075643BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{341DEFB8-3A55-49D3-A026-F806F1A0566E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{341DEFB8-3A55-49D3-A026-F806F1A0566E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{341DEFB8-3A55-49D3-A026-F806F1A0566E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D714A33-0B3E-49F4-A51F-6617075643BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D714A33-0B3E-49F4-A51F-6617075643BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D714A33-0B3E-49F4-A51F-6617075643BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D714A33-0B3E-49F4-A51F-6617075643BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{4E2EE0D1-5420-4417-8DFB-F2DAFAD58DD8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{3ED478FC-C88C-43D4-AD20-B507B95DD9E7} = {1D894B78-9B81-49AF-8511-D44DA48CA3FC}
 		{341DEFB8-3A55-49D3-A026-F806F1A0566E} = {96391871-0D30-4C6F-BACA-5951B7BADC85}
+		{4D714A33-0B3E-49F4-A51F-6617075643BA} = {5416A7B8-C5A8-474A-A8B9-DE43EE00356B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B8B215B-EED8-4B7D-8A8F-9D1DECD40074}
